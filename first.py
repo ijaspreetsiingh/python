@@ -1,0 +1,17 @@
+a=[]
+num=[1,2,3,4,5]
+length=len(num)
+print(num[0])
+print(num[int(len(num))//2])
+print(num[-1])
+mixed_data=["name","age","married","address"]
+it_companies=["Apple","Facebook","Google","Microsoft","IBM","Oracle","Amazon"]
+print(it_companies)
+print(len(it_companies))
+print(it_companies[len(it_companies)//2])
+print(it_companies[-1])
+it_companies[3]="hello"
+print(it_companies)
+it_companies[len(it_companies)//2]="new"
+it_companies[1]=it_companies[1].upper()
+print(it_companies)
